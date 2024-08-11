@@ -1,0 +1,36 @@
+body {
+    background-color: antiquewhite;
+}
+
+.box {
+    display:flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+header {
+    display:inline-block;
+    border-radius: 10px;
+    background-color: black;
+    color:white;
+    margin:10px;
+    padding:10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style:italic;
+    width:500px
+}
+
+h3, p {
+    margin: 10px;
+}
+
+.skills {
+    background-color: aqua;
+    width: 181px;
+    border-radius: 25px
+}
+
+.certs {
+    font-style:italic;
+    color:purple;
+}

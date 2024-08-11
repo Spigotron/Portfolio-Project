@@ -1,0 +1,67 @@
+body {
+    background-color: antiquewhite;
+}
+
+.box {
+    display:flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+header {
+    display:inline-block;
+    border-radius: 10px;
+    background-color: black;
+    color:white;
+    margin:10px;
+    padding:10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style:italic;
+    width:500px
+}
+
+welcome, bio, img, button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:10px;
+}
+
+img {
+    border-radius: 25px;
+    box-shadow: 0px 0px 25px rgba(0, 255, 255, 10);
+}
+
+button {
+    background-color: greenyellow;
+    padding: 5px;
+    width: 65px;
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 10);
+}
+
+button:hover {
+    background-color:white;
+    transition:1s
+}
+
+button:active {
+    background-color: yellow;
+}
+
+button:focus {
+    border-color: blue;
+}
+
+@keyframes slidebackandforth {
+    0% {
+      transform: translateX(0%);
+    }
+    50% {
+      transform: translateX(315%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+}
+  
+.animated {
+    animation: slidebackandforth 5s ease-in-out infinite;
+}
